@@ -41,7 +41,7 @@ class chuckAjax {
     }
 
     getUrl(urlPart) {
-        return "http://" + window.location.host + urlPart
+        return window.location.protocol + "//" + window.location.host + urlPart
     }
 }
 
