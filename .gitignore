@@ -1,0 +1,14 @@
+# Visual Code Workspace
+*.code-workspace
+
+# Lando .yml
+.lando.yml
+
+# node modules
+node_modules
+
+# dist files
+dist
+
+# budfiles
+.budfiles/

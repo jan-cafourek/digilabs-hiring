@@ -1,0 +1,21 @@
+{
+  "name": "jc-chuck",
+  "private": true,
+  "browserslist": [
+    "extends @roots/browserslist-config/current"
+  ],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "dev": "bud dev",
+    "build": "bud build"
+  },
+  "devDependencies": {
+    "@roots/bud": "^6.5.3",
+    "@roots/bud-sass": "^6.5.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
